@@ -1,5 +1,11 @@
 fun main() {
-    // ваш код начнется здесь
-    // вы не должны ограничиваться только классом Main и можете создавать свои классы по необходимости
-    println("Привет")
+
+    println("Программа для хранения заметок.")
+
+    val menuConstructor = MenuConstructor()
+
+    val listArch: MutableList<Archive> = mutableListOf()
+
+    menuConstructor.buildMenu(listArch)
+
 }
